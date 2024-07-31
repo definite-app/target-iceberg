@@ -27,7 +27,7 @@ python = "^3.9"
 singer-sdk = { version="~=0.38.0", extras = ["faker"] }
 fs-s3fs = { version = "~=1.1.1", optional = true }
 requests = "~=2.32.0"
-pyiceberg = { version = "^0.6.1", extras = ["gcsfs", "sql-postgres", "pyarrow"] }
+pyiceberg = { version = "^0.7.0", extras = ["gcsfs", "sql-postgres", "pyarrow"] }
 pandas = "^2.2.2"
 numpy = "<2"
 
