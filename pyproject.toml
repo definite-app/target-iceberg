@@ -24,7 +24,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-singer-sdk = { version="~=0.38.0", extras = ["faker"] }
+singer-sdk = { version="~=0.39.0", extras = ["faker"] }
 fs-s3fs = { version = "~=1.1.1", optional = true }
 requests = "~=2.32.0"
 pyiceberg = { version = "^0.6.1", extras = ["gcsfs", "sql-postgres", "pyarrow"] }
@@ -33,7 +33,7 @@ numpy = "<2"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=7.4.0"
-singer-sdk = { version="~=0.38.0", extras = ["testing"] }
+singer-sdk = { version="~=0.39.0", extras = ["testing"] }
 
 [tool.poetry.extras]
 s3 = ["fs-s3fs"]
